@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: package_name
+Version: 0.0.1
+Summary: my short description
+Home-page: my_github_repository_project_link
+Author: my_name
+Author-email: my_email
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scikit_image>=0.16.1
+
+# image_processing
+
+Description.
+The package image_processing is used to:
+    Processing:
+        - Histrogram matching
+        - Structural similarity
+        - Resize image
+    Utils:
+        - Read image
+        - Save image
+        - plot image
+        - plot result
+        - plot histogram
+
+
+## Installation
+
+Use the package manage [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+'''bash
+pip install image_processing
+'''
+
+## Usage
+
+'''python
+from package_name.module1_name import file1_name
+file1_name.my_fuction()
+
+## Author
+Allan
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
